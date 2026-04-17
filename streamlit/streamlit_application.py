@@ -5,7 +5,7 @@ import requests
 import matplotlib.pyplot as plt
 import numpy as np
 
-API_URL = st.secrets["Deployment_URL"]
+API_URL = st.secrets["DEPLOYMENT_URL"]
 
 CANONICAL_FEATURES = {
     "ExterQual": "None",
